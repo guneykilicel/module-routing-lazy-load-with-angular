@@ -5,11 +5,19 @@ import { TablesRoutingModule } from './tables-routing.module';
 import { TablesHomeComponent } from './tables-home/tables-home.component';
 import { TableComponent } from './table/table.component';
 import { SharedModule } from '../shared/shared.module';
+import { BiographyComponent } from './biography/biography.component';
+import { PartnersComponent } from './partners/partners.component';
+import { CompaniesComponent } from './companies/companies.component';
+import { TabsComponent } from './tabs/tabs.component';
 
 @NgModule({
   declarations: [
     TablesHomeComponent,
     TableComponent,
+    BiographyComponent,
+    PartnersComponent,
+    CompaniesComponent,
+    TabsComponent,
   ],
   imports: [
     CommonModule,
