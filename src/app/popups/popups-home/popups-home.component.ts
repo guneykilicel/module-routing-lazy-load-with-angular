@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./popups-home.component.css']
 })
 export class PopupsHomeComponent {
+  modalOpen = false;
 
+  onClick() {
+    this.modalOpen = !this.modalOpen;
+  }
 }

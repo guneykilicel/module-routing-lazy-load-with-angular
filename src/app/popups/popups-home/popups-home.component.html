@@ -1,4 +1,5 @@
 <app-divider>
     Popup
 </app-divider>
-<app-modal></app-modal>
+<button (click)="onClick()" >Kullanıcı Onayı</button>
+<app-modal (close)="onClick()" *ngIf="modalOpen"></app-modal>
