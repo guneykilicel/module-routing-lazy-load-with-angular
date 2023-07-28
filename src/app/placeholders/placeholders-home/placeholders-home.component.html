@@ -1,1 +1,19 @@
-<p>placeholders-home works!</p>
+<app-divider>
+    Placeholder
+</app-divider>
+<!-- Alttaki şekilde de divider a veri gönderebiliriz ve dividerda Input() ile kaşılamamız gerekir,
+ama biz direkt içine yazıp input ile uğraşmadan ngcontent kullanarak içine ne yazdıysak onu alabiliriz. -->
+<!-- <app-divider [title] = "'Placeholder'" ></app-divider> -->
+<app-placeholders></app-placeholders>
+
+<app-divider>
+    Segment
+</app-divider>
+<app-segment>
+    <header>
+        <i class="pdf file outline icon"></i>
+        Hiçbir döküman bulunamadı lütfen döküman ekleyin.
+    </header>
+
+    <div class="ui primary button">Ekle</div>
+</app-segment>
